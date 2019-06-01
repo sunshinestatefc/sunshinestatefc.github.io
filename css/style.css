@@ -1,3 +1,5 @@
+@charset "UTF-8";
+/* ===================== Begin CSS Reset ======================= */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -47,12 +49,78 @@ table {
 	border-spacing: 0;
 }
 
-/* ======================================================= */
+/* ===================== End CSS Reset ======================= */
 
-body{
-	background-color:#BBB;
+
+
+/* ===========================================================
+   ======================= Contents ==========================
+   ===========================================================
+
+s1.0 - Text Formatting
+s2.0 - Media Queries
+s3.0 - UI
+s4.0 - Page Layouts
+	s4.1 - Home Page
+	s4.2 - Trips - Overview
+	s4.3 - Trips - Two Column
+s5.0 - Photos
+
+======================== End Contents ======================== */
+
+
+
+/* ================= s1.0 Text Formatting ==================== */
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Rubik', sans-serif;
+}
+
+h1 em, h2 em, h3 em, h4 em, h5 em, h6 em, p em, ul em, ol em, li em, a em{
+	font-style: italic;
+}
+
+p, ul, li, a{
+	font-family: 'PT Serif', serif;
+	font-weight: 400;
+}
+
+p em, ul em, li em, a em{
+	font-style: italic;
+}
+
+p strong, ul strong, li strong, a strong{
+	font-weight: 700;
 }
 
 h1{
-	color:#E00
+	font-size: 48px;
+	font-weight: 700;
 }
+
+h2{
+	font-size: 36px;
+	font-weight: 700;
+}
+
+h3{
+	font-size: 32px;
+	font-weight: 300;
+}
+
+h4{
+	font-size: 20px;
+	font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ================== End Text Formatting ==================== */
